@@ -7,7 +7,7 @@ on:
     #Runs every time main is pushed to
 jobs:
   deploy:
-    runs-on: self hosted
+    runs-on: self-hosted
     #Deploys on the self hosted uni VM (in this case it should be VM1)
 
     steps:
